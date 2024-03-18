@@ -10,6 +10,9 @@ function hitung(operator) {
       case '-':
           hasil = angka1 - angka2;
           break;
+      case '*':
+          hasil = angka1 * angka2;
+          break;
   }
 
   document.getElementById('hasil').innerHTML = hasil;
